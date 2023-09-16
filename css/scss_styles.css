@@ -1,0 +1,106 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Times New Roman", Times, serif;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.wrapper {
+  width: 100%;
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.section {
+  width: 100%;
+}
+.section-header, .section-content {
+  display: block;
+  width: 100%;
+}
+.section-header {
+  background-color: #C4C4C4;
+}
+.section-content {
+  padding: 1.2rem 0;
+}
+.section-title {
+  color: #005677;
+  font-size: 1.25rem;
+  letter-spacing: 0.3rem;
+  text-transform: uppercase;
+  padding: 0.3rem 0;
+}
+.section-data {
+  margin-bottom: 0.6rem;
+}
+.section-year {
+  vertical-align: top;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.inline-block {
+  display: inline-block;
+}
+
+.header {
+  position: relative;
+  width: 100%;
+  background-color: #E6E6E6;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 6rem;
+}
+.header-logo {
+  width: 100px;
+  margin-bottom: 1.25rem;
+}
+.header-title {
+  position: relative;
+  width: 100%;
+  background-color: #C4C4C4;
+  text-align: center;
+  color: #005677;
+  text-transform: uppercase;
+  font-size: 2.25rem;
+  padding: 0.6rem 0;
+  letter-spacing: 0.3rem;
+}
+
+.personal-item {
+  margin-left: 1rem;
+  font-style: italic;
+  font-size: 1rem;
+  margin-bottom: 0.4rem;
+}
+
+.footer {
+  width: 100%;
+  position: relative;
+  background-color: #005677;
+  padding: 0.6rem 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  color: #FFF;
+  text-transform: uppercase;
+  column-gap: 1.4rem;
+  font-size: 1.25rem;
+}
+
+/*# sourceMappingURL=scss_styles.css.map */
