@@ -1,6 +1,7 @@
 .header {
   position: relative;
   width: 100%;
+  height: max-content;
   background-color: $third-color;
   display: flex;
   flex-direction: column;

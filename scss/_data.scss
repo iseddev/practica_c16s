@@ -1,5 +1,4 @@
-.section {
-  width: 100%;
+.data {
 
   &-header, &-content {
     display: block;
@@ -7,9 +6,13 @@
   }
 
   &-header { background-color: $second-volor; }
+  &-content { padding: 1.2rem 0; }
 
-  &-content {
-    padding: 1.2rem 0;
+  &-item {
+    margin-left: 1rem;
+    font-style: italic;
+    font-size: 1rem;
+    margin-bottom: .4rem;
   }
 
   &-title {
@@ -19,11 +22,8 @@
     text-transform: uppercase;
     padding: .3rem 0;
   }
+  
+  &-details { margin-bottom: .6rem; }
 
-  &-data { margin-bottom: .6rem; }
   &-year { vertical-align: top; }
-
 }
-
-.bold { font-weight: bold; }
-.inline-block { display: inline-block; }
